@@ -8,12 +8,12 @@ When you spend so much time on something, getting expertise is inbuilt :).
 
 But currently programming has become a means of making money and I have moved away from the art.
 
-I chose my passion ( computer science ) as my career so that I could cherish it every moment, but when working for someone as an engineer , its more of a buisness rather than an art.
+I chose my passion ( computer science ) as my career so that I could cherish it every moment, but when working for someone as an engineer , its more of a business rather than an art.
 
 Lately, i spent some time to think about what **functions** are and how to write them ? What is an appropriate mental model that is easy and apt for people to understand ?
 
+##Crafting Functions##
 Functions in programming are functions from mathematics.
-
 For example, in mathematics, we describe a function that doubles a value as below,
 f(x) = x*2;
 
@@ -35,6 +35,7 @@ function doubleXAndAddY(x,y){
   return finalval;
 }
 ```
+The above function has 2 parameters, and gives back a value.
 
 Now I am writing a third function with three parameters,
 
@@ -46,8 +47,9 @@ function doubleXAndAddYAndAppendZ(x,y,z){
   return third;
 }
 ```
+The third function has 3 parameters, and does something more complex than the above functions !
 
-We have seen three functions as examples, now to the mental model I am trying to convey here :P.
+We have seen three functions as examples, now to the **mental model** I am trying to convey here :P.
 
 Functions in programming ( javascript here ) have a name, parameters and a return value ( of a particular type like may be an integer, or string.. )
 
