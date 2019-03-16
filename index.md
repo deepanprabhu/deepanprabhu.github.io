@@ -46,3 +46,14 @@ function doubleXAndAddYAndAppendZ(x,y,z){
   return third;
 }
 ```
+
+We have seen three functions as examples, now to the mental model I am trying to convey here :P.
+
+Functions in programming ( javascript here ) have a name, parameters and a return value ( of a particular type like may be an integer, or string.. )
+
+Name - Choose a function name, that conveys the functionality.
+Parameter names - Choose names, that convey the value they hold.
+**Parameter Order** - If a function has 4 parameters, you can order them in 24 ways :). So how can we order them ?
+1. Order the parameters in the order in which they are to be utilized to arrive at the final result.
+2. In the doubleXAndAddYAndAppendZ, we are having the order of parameters as x, y and followed by z. We could have had y,x,z too.
+3. But We double *x* first, use that value to add *y* and then append *z* to it. Hence from the functionality and how it is derived at, we arrive at the parameter order, as x,y, followed by z.
