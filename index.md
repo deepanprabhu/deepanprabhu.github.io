@@ -20,11 +20,11 @@ f(x) = x*2;
 The same function written in javascript is,
 
 ```javascript
-function doubleThis(x) {
+function doubleX(x) {
   return x*2;
 }
 ```
-So a function has a name, **doubleThis**, it takes one parameter, **x** and it gives back f(x).
+So a function has a name, **doubleX**, it takes one parameter, **x** and it gives back f(x).
 
 Lets write a second function,
 
@@ -33,5 +33,16 @@ function doubleXAndAddY(x,y){
   int intermediate = 2 * x;
   int finalval = intermediate + y;
   return finalval;
+}
+```
+
+Now I am writing a third function with three parameters,
+
+```javascript
+function doubleXAndAddYAndAppendZ(x,y,z){
+  int first = 2*x;
+  int second = first + y;
+  var third = second.toString() + String(z);
+  return third;
 }
 ```
