@@ -25,3 +25,13 @@ function doubleThis(x) {
 }
 ```
 So a function has a name, **doubleThis**, it takes one parameter, **x** and it gives back f(x).
+
+Lets write a second function,
+
+``` javascript
+function doubleXAndAddY(x,y){
+  int intermediate = 2 * x;
+  int finalval = intermediate + y;
+  return finalval;
+}
+```
