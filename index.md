@@ -10,9 +10,9 @@ But currently programming has become a means of making money and I have moved aw
 
 I chose my passion ( computer science ) as my career so that I could cherish it every moment, but when working for someone as an engineer , its more of a buisness rather than an art.
 
-Lately, i spent some time to think about what **functions** are and how to write them ? How can we convey a mental model to people who learn programming to craft functions ?
+Lately, i spent some time to think about what **functions** are and how to write them ? What is an appropriate mental model that is easy and apt for people to understand ?
 
-Functions in programming are the same functions from mathematics.
+Functions in programming are functions from mathematics.
 
 For example, in mathematics, we describe a function that doubles a value as below,
 f(x) = x*2;
@@ -20,7 +20,8 @@ f(x) = x*2;
 The same function written in javascript is,
 
 ```javascript
-function double(x) {
-return x*2;
+function doubleThis(x) {
+  return x*2;
 }
 ```
+So a function has a name, **doubleThis**, it takes one parameter, **x** and it gives back f(x).
