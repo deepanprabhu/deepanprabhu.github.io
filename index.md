@@ -12,10 +12,15 @@ I chose my passion ( computer science ) as my career so that I could cherish it 
 
 Lately, i spent some time to think about what **functions** are and how to write them ? What is an appropriate mental model that is easy and apt for people to understand ?
 
-##Crafting Functions##
-Functions in programming are functions from mathematics.
+## Crafting Functions
+
+Functions in programming are indeed functions from mathematics.
+
 For example, in mathematics, we describe a function that doubles a value as below,
 f(x) = x*2;
+
+1. f(x) is the name of the function.
+2. x is an input, or in programming terms called a parameter.
 
 The same function written in javascript is,
 
@@ -24,7 +29,8 @@ function doubleX(x) {
   return x*2;
 }
 ```
-So a function has a name, **doubleX**, it takes one parameter, **x** and it gives back f(x).
+So a function has the name, **doubleX**, it takes one parameter, **x** and it gives back f(x).
+So f(x) = x*2 in *mathematics* is doubleX(x) in javascript !!
 
 Lets write a second function,
 
