@@ -1,5 +1,3 @@
-# Deepan Prabhu's Website
-
 # How to craft programming Functions
 
 All programming languages allow you to create functions. When i first saw people writing functions and reusing them, i felt they are very powerful and I should also *create* one. And when i wrote my first function, i felt so powerful !!
