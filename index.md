@@ -34,7 +34,7 @@ function doubleXAndAddY(x,y){
 }
 ```
 The above function has 2 parameters (inputs), and gives back the output of the function.
-So f(x) = 2*x + y in *mathematics* is doubleXAndAddY(x,y) in javascript !!
+So f(x) = 2\*x + y in *mathematics* is doubleXAndAddY(x,y) in javascript !!
 
 Now I am writing a third function, but now with three parameters,
 
@@ -55,7 +55,7 @@ Functions in programming have a name, bunch of parameters and a return value ( o
 
 1. Name - Choose a function name, that conveys the functionality. Example, **areaOfSquare**
 2. Parameter names - Choose parameter names, that convey the value they hold. Example, function areaOfSquare(length, breadth) {}
-3. **Parameter Order** - If a function has 4 parameters, you can order them in 24 ways :). So how can we order them ?
-   1. Order the parameters in the order in which they are to be utilized to arrive at the final result.
+3. **Parameter Order** - If a function has 4 parameters, you can order them in 24 ways :). So what is the best way to order them when specifying a function ?
+   1. Order the parameters in the order in which they are to be utilized/used to arrive at the final result.
    2. In the doubleXAndAddYAndAppendZ, we are having the order of parameters as x, y and followed by z. We could have had y,x,z    too.
    3. But We double *x* first, use that value to add *y* and then append *z* to it. Hence from the functionality and how it is derived at, we arrive at the parameter order, as x,y, followed by z.
