@@ -4,9 +4,11 @@ All programming languages allow you to create functions. When i first saw people
 
 In this article, I am sharing some experience, mental model and examples on how to compose a function. 
 
+To folks who have been programming, a usual question they have when they see this article is, what is so special about crafting a function ? It's so easy and simple. But after years of programming and working for major firms, it took me to realize some of the below things !
+
 ## Crafting Functions
 
-Functions in programming are indeed functions from mathematics.
+### Functions in programming are indeed functions from mathematics.
 
 For example, in mathematics, we describe a function that doubles a value as,
 f(x) = x*2;
@@ -24,7 +26,7 @@ function doubleX(x) {
 So the above function has the name, **doubleX**, it takes one parameter, **x** and it gives back f(x).
 So f(x) = x\*2 in *mathematics* is doubleX(x) in javascript !!
 
-Lets write a second function,
+### Lets write a second function,
 
 ``` javascript
 function doubleXAndAddY(x,y){
@@ -36,7 +38,7 @@ function doubleXAndAddY(x,y){
 The above function has 2 parameters (inputs), and gives back the output of the function.
 So f(x) = 2\*x + y in *mathematics* is doubleXAndAddY(x,y) in javascript !!
 
-Now I am writing a third function, but now with three parameters,
+### Now I am writing a third function, but now with three parameters,
 
 ```javascript
 function doubleXAndAddYAndAppendZ(x,y,z){
@@ -49,6 +51,7 @@ function doubleXAndAddYAndAppendZ(x,y,z){
 ```
 The third function has 3 parameters, and does something more complex than the above 2 functions !
 
+## Mental Model
 We have seen three functions as examples, now to the **mental model** I am trying to convey here :P.
 
 Functions in programming have a name, bunch of parameters and a return value ( of a particular type like may be an integer, or string.. )
