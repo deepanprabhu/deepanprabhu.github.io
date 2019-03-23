@@ -52,7 +52,6 @@ function doubleXAndAddYAndAppendZ(x,y,z){
 The third function has 3 parameters, and does something more complex than the above 2 functions !
 
 ## Mental Model
-We have seen three functions as examples, now to the **mental model** I am trying to convey here :P.
 
 Functions in programming have a name, bunch of parameters and a return value ( of a particular type like may be an integer, or string.. )
 
